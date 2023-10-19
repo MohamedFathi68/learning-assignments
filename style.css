@@ -92,9 +92,11 @@ h1 {
 
 .section-two {
   height: 768px;
+  background-color: #ffffff;
 }
 
-.sec2-img, .sec2-content {
+.sec2-img,
+.sec2-content {
   width: 50%;
   height: 100%;
   float: left;
@@ -110,12 +112,13 @@ h1 {
 
 .sec2-icons {
   width: 50px;
-  border: 1px solid #8E7754;
+  border: 1px solid #8e7754;
   border-radius: 25px;
   margin-right: 20px;
 }
 
-.sec2-point,.sec2-icons {
+.sec2-point,
+.sec2-icons {
   display: inline-block;
 }
 
@@ -124,7 +127,9 @@ h1 {
   top: 22%;
 }
 
-.sec2-title, .sec2-p, .sec2-icons {
+.sec2-title,
+.sec2-p,
+.sec2-icons {
   margin-left: 15%;
 }
 
@@ -142,21 +147,34 @@ h1 {
 }
 
 .section-three {
-  height: 768px;
+  height: 800px;
+  background-color: #f8f8f8;
 }
 
-.sec3-img, .sec3-content {
+.sec3-img,
+.sec3-content {
   width: 50%;
   height: 100%;
   float: left;
+  margin-top: 80px;
 }
 
-.sec3-img img{
+.sec3-img img {
   width: 90%;
 }
 
 .sec3-title,
 .sec3-p1,
 .sec3-p2 {
-  margin: 0 10% 0 10%;
+  margin: 6% 10% 0 10%;
+}
+
+.sec3-title {
+  font-size: 28px;
+  margin-top: 10%;
+}
+
+.sec3-p1,
+.sec3-p2 {
+  font-size: 20px;
 }
